@@ -1,0 +1,19 @@
+{
+  "name": "07-api",
+  "version": "1.0.0",
+  "main": "01-http.js",
+  "scripts": {
+    "dev:1": "nodemon 02-routing.js",
+    "dev:2": "node --watch 03-express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "4.21.1"
+  }
+}
